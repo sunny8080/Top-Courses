@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Toastify__toast--success,
+.Toastify__toast--warning {
+    width: 225px;
+    right: -100px;
+}
